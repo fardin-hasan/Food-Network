@@ -47,3 +47,118 @@ body{
     width: 50%;
 
 }
+
+
+.middle-section{
+    margin-top: 70px;
+    display: flex;
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    
+}
+#about{
+    font-size: 40px;
+}
+
+.middle-img{
+    
+    width: 50%;
+   
+}
+.middle-img img{
+    height: 30%;
+    padding-top: 88px;
+    padding-left: 180px;
+    
+}
+.middle-info{
+    color:#4d5053 ;
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 55px;
+    padding-right: 200px;
+    
+}
+.middle-info p{
+    margin-bottom: 125px;
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(235, 116, 95),rgb(252, 84, 6));
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 18px 40px 18px 40px;
+    margin-left: 10px;
+    border-radius: 100px;
+
+}
+
+.recepie-info{
+    margin-top:-1030px;
+    margin-left:300px;
+    width: 70%;
+    
+}
+.recepie-info h1{
+    color:#4d5053 ;
+    font-size: 40px;
+    margin-left: 250px;
+}
+.recepie-info p{
+    width: 80%;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+.recepie{
+    display: flex;
+}
+.recepie h2{
+    margin-left: 15px;
+}
+.recepie p{
+    margin-left: 15px;
+}
+
+.recepie-1{
+    width:25% ;
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+    border: white solid;
+    box-shadow: 1px 1px 5px  grey;
+    border-radius: 30px;
+
+}
+
+
+.recepie-2{
+    width:25% ;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: white solid;
+    box-shadow: 1px 1px 5px  grey;
+    border-radius: 30px;
+
+}
+.recepie-3{
+    width:25% ;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+    border: white solid;
+    box-shadow: 1px 1px 5px  grey;
+    border-radius: 30px;
+
+}
+
+
+.recepie-img{
+    width: 90%;
+    height: 50%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
