@@ -2,8 +2,24 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 .head-section{
+   
+    margin-top: 15px;
+    margin-left: 70%;
+}
+.head-section a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(99, 94, 93),rgb(221, 125, 87));
+    padding: 18px 25px 18px 25px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    
+    
+}
+
+.intro-section{
     color:#4d5053 ;
     display: flex;
     
@@ -18,10 +34,12 @@ body{
 }
 .skip{
     color: rgba(233, 104, 18, 0.815);
+    
 }
 .introduction h1{
     font-size: 50px;
     line-height: 30px;
+    
    
 }
 .introduction p{
@@ -120,6 +138,7 @@ body{
 }
 .recepie h2{
     margin-left: 15px;
+    color: ;
 }
 .recepie p{
     margin-left: 15px;
@@ -130,7 +149,7 @@ body{
     margin-left: 7.5%;
     margin-right: 2.5%;
     border: white solid;
-    box-shadow: 1px 1px 5px  grey;
+    box-shadow: 1px 1px 10px 10px rgb(241, 238, 238);
     border-radius: 30px;
 
 }
@@ -141,7 +160,7 @@ body{
     margin-left: 2.5%;
     margin-right: 2.5%;
     border: white solid;
-    box-shadow: 1px 1px 5px  grey;
+    box-shadow: 1px 1px 10px 10px rgb(241, 238, 238);
     border-radius: 30px;
 
 }
@@ -150,7 +169,7 @@ body{
     margin-left: 2.5%;
     margin-right: 7.5%;
     border: white solid;
-    box-shadow: 1px 1px 5px  grey;
+    box-shadow: 1px 1px 10px 10px rgb(241, 238, 238);
     border-radius: 30px;
 
 }
@@ -161,4 +180,26 @@ body{
     height: 50%;
     padding-left: 15px;
     padding-top: 15px;
+}
+
+#social-media{
+    display: flex;
+    border:white solid;
+    box-shadow: 1px 1px 10px 10px rgb(241, 238, 238);
+    border-radius: 30px;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+#social-media h1{
+    font-size: 45px;
+    margin-bottom: -20px;
+  
+}
+#social-media p{
+    margin-bottom: 30%;
+}
+.social-site{
+    margin-left: 15%;
 }
